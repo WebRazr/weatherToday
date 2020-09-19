@@ -1,0 +1,54 @@
+//all temp
+.miniBlock{
+  width:  120px;
+  border: 2px solid white;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin: 4px;
+}
+.day-inf{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ABBD9B;
+  height: 28px;
+  p{
+    font-size: 1.2em;
+  }
+}
+.into-block{
+  padding-top: 0px;
+  border-top: 6px solid white;
+  display: flex;
+  background: #D4CEA3;
+  .img-time{
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    .time-w{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+    .img-w{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+  }
+  .tempBlock{
+    height: 100%;
+    background: #A3D4B4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    p{
+      font-size: 1.4em;
+    }
+  }
+}
