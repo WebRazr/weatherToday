@@ -1,6 +1,7 @@
 import React, { FC } from "react";
 import "./ShowWeather.scss";
 import InfoDay from "./miniInf/InfoDay";
+import LeftInf from './leftInf/LeftInf'
 export type timeFS = {
   time: string;
   img: string;
@@ -86,6 +87,7 @@ const ShowWeather: FC = () => {
   });
   return (
     <div className={"main-weather"}>
+        <LeftInf />
       <div>{infDay}</div>
     </div>
   );
