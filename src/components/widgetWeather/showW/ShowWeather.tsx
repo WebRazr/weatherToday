@@ -6,6 +6,7 @@ export type timeFS = {
   time: string;
   img: string;
   temp: string;
+    humidity: string
 };
 type arrTForDay = {
   name: string;
@@ -21,12 +22,14 @@ const ShowWeather: FC = () => {
           img:
             "https://www.freepngimg.com/thumb/weather/23793-9-weather-photos.png",
           temp: "+10 C",
+            humidity: '50%'
         },
         {
           time: "3: 00",
           img:
             "https://www.freepngimg.com/thumb/weather/23793-9-weather-photos.png",
           temp: "+7 C",
+            humidity: '50%'
         },
       ],
     },
@@ -38,12 +41,14 @@ const ShowWeather: FC = () => {
           img:
             "https://www.freepngimg.com/thumb/weather/23793-9-weather-photos.png",
           temp: "+10 C",
+            humidity: '50%'
         },
         {
           time: "09: 00",
           img:
             "https://www.freepngimg.com/thumb/weather/23793-9-weather-photos.png",
           temp: "+7 C",
+            humidity: '50%'
         },
       ],
     },
@@ -51,16 +56,18 @@ const ShowWeather: FC = () => {
       name: "день",
       timeTwo: [
         {
-          time: "06: 00",
+          time: "12: 00",
           img:
             "https://www.freepngimg.com/thumb/weather/23793-9-weather-photos.png",
           temp: "+10 C",
+            humidity: '50%'
         },
         {
-          time: "09: 00",
+          time: "15: 00",
           img:
             "https://www.freepngimg.com/thumb/weather/23793-9-weather-photos.png",
           temp: "+7 C",
+            humidity: '50%'
         },
       ],
     },
@@ -68,16 +75,18 @@ const ShowWeather: FC = () => {
       name: "вечер",
       timeTwo: [
         {
-          time: "06: 00",
+          time: "18: 00",
           img:
             "https://www.freepngimg.com/thumb/weather/23793-9-weather-photos.png",
           temp: "+10 C",
+            humidity: '50%'
         },
         {
-          time: "09: 00",
+          time: "21: 00",
           img:
             "https://www.freepngimg.com/thumb/weather/23793-9-weather-photos.png",
           temp: "+7 C",
+            humidity: '50%'
         },
       ],
     },

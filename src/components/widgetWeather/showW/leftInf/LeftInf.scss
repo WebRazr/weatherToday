@@ -1,0 +1,39 @@
+.leftInf-style{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  //padding: 10px 10px 0px 30px;
+  width: 320px;
+  height: 200px;
+  .like-temp{
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  .temp-left{
+    display: flex;
+    align-items: center;
+    p{
+      font-size: 2em;
+    }
+  }
+  .day-style-left{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1.4em;
+  }
+  div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    div{
+      width: 150px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      p{
+        padding-bottom: 10px;
+        font-size: 1em;
+        text-align: start;
+      }
+    }
+  }
+}

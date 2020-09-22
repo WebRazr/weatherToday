@@ -1,8 +1,12 @@
 .container-w{
   margin-top: 20px;
   display: flex;
+
 }
 .weather-w{
+  p{
+    font-size: 1em;
+  }
   border-radius: 10px;
   margin: 0 10px;
   color: #ffffff;
@@ -46,13 +50,13 @@
     height: 80px;
     background: #644749;
     div{
+      .s-tm{
+        font-size: 1.9em;
+      }
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
     }
   }
-}
-.s-tm{
-  font-size: 2.4em;
 }

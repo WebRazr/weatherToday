@@ -1,6 +1,7 @@
 //all temp
 .miniBlock{
   width:  120px;
+  height: 195px;
   border: 2px solid white;
   border-radius: 10px;
   overflow: hidden;
@@ -50,5 +51,16 @@
     p{
       font-size: 1.4em;
     }
+  }
+}
+.humidity-style{
+  width: 100%;
+  background: #644749;
+  display: flex;
+  justify-content: center;
+  height: 20px;
+  p{
+    color: #fff;
+    font-size: 0.9em;
   }
 }
