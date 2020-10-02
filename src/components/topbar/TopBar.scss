@@ -1,17 +1,18 @@
-.top-bar{
+.top-bar {
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 4px;
   display: grid;
   //justify-content: center;
   //align-items: center;
   height: 60px;
   grid-template-columns: 1fr 1fr 1fr;
-  background: antiquewhite;
-  div{
+  background: rgb(253, 254, 255);
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  div {
     height: 100%;
     display: flex;
-  align-items: center;
+    align-items: center;
     justify-content: center;
-
   }
 }

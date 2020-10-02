@@ -1,9 +1,11 @@
-.find-div{
+.find-div {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: row;
+  height: 100%;
 }
-.find-style{
+.find-style {
   width: 400px;
   border-radius: 5px;
   height: 30px;

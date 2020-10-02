@@ -1,6 +1,6 @@
 //all temp
-.miniBlock{
-  width:  120px;
+.miniBlock {
+  width: 120px;
   height: 195px;
   border: 2px solid white;
   border-radius: 10px;
@@ -9,57 +9,57 @@
   flex-direction: column;
   margin: 4px;
 }
-.day-inf{
+.day-inf {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #ABBD9B;
+  background: #abbd9b;
   height: 28px;
-  p{
+  p {
     font-size: 1.2em;
   }
 }
-.into-block{
+.into-block {
   padding-top: 0px;
   border-top: 6px solid white;
   display: flex;
-  background: #D4CEA3;
-  .img-time{
+  background: #d4cea3;
+  .img-time {
     display: flex;
     flex-direction: column;
     width: 50px;
-    .time-w{
+    .time-w {
       display: flex;
       justify-content: center;
       align-items: center;
       width: 100%;
     }
-    .img-w{
+    .img-w {
       display: flex;
       justify-content: center;
       align-items: center;
       width: 100%;
     }
   }
-  .tempBlock{
+  .tempBlock {
     height: 100%;
-    background: #A3D4B4;
+    background: #a3d4b4;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 70px;
-    p{
-      font-size: 1.4em;
+    p {
+      font-size: 1.2em;
     }
   }
 }
-.humidity-style{
+.humidity-style {
   width: 100%;
   background: #644749;
   display: flex;
   justify-content: center;
   height: 20px;
-  p{
+  p {
     color: #fff;
     font-size: 0.9em;
   }
